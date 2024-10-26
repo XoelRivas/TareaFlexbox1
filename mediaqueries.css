@@ -1,0 +1,94 @@
+/*Responsividad*/
+
+@media (max-width: 800px) {
+    *{
+        font-size: 1.5vw !important;
+    }
+    header{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    header .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .logo h1 {
+        padding-left: 0;
+    }
+
+    #menu{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    *{
+        font-size: 3vw !important;
+    }
+
+    header{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    header .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .logo h1 {
+        padding-left: 0;
+    }
+
+    #menu{
+        width: 100%;
+    }
+
+    #menu ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    #projects{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project{
+        width: 95%;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    footer .logo{
+        justify-content: center;
+    }
+
+    footer .logo h1{
+        padding-left: 0;
+    }
+}
